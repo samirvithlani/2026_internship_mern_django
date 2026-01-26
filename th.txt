@@ -1,0 +1,47 @@
+DJNGO: 	
+
+python:
+list tuple set dict function
+oops exception handling, var , ...
+
+frontend: Django template
+backend: Django.
+database  PostgreSQL
+
+------------------------
+python
+
+virtual env:
+
+d:
+ projects
+     Django [client name]
+	ctlr + l -->type cmd
+
+pip install virtualenv
+	create virtual env
+	python -m virtualenv venv
+        code .  : if not work --> manual
+
+	open terminal
+	change profile of terminal to cmd
+
+	enable virtual environment:
+	venv\scripts\activate
+	pip install Django
+	Django project creation
+	django-admin startproject learning26
+	
+	cd learning26
+	start Django server:
+	python manage.py runserver
+	open url :http://127.0.0.1:8000/
+
+	
+
+
+
+
+
+
+
