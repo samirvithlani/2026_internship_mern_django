@@ -39,9 +39,4 @@ pip install virtualenv
 
 	
 
-
-
-
-
-
-
+https://www.postgresql.org/download/windows/
