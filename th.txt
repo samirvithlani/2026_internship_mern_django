@@ -40,3 +40,7 @@ pip install virtualenv
 	
 
 https://www.postgresql.org/download/windows/
+
+-->manage.py -->settings.py --> ini file learning26
+
+create folder named templates
