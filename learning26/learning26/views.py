@@ -16,3 +16,11 @@ def contactUs(request):
 
 def home(request):
     return render(request,"home.html")
+
+def reacp(request):
+    return render(request,"reacp.html")
+
+def recipe(request):
+    ingredient = ["maggie","tomato"]
+    data = {"name":"maggie","time":20,"ingredient":ingredient} 
+    return render(request,"recipe.html",data)

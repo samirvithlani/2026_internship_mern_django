@@ -25,5 +25,8 @@ urlpatterns = [
     path("test/",views.test),
     path("about/",views.AboutUs),
     path("contact/",views.contactUs),
-    path("",views.home)
+    path("",views.home),
+    #http://127.0.0.1/:8000/recap
+    path("recap/",views.reacp),
+    path("recipe/",views.recipe)
 ]
