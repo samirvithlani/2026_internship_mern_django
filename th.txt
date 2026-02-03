@@ -54,3 +54,51 @@ python manage.py runserver
 
 -->manage.py -->settings.py --> ini file learning26
  -->urls.py --> views.py
+---------------------------------------------
+
+ ---->database conf steps:
+ open pgadmin
+ create database
+
+ learning26-->
+
+ settings.py -->	
+
+ default': {
+       'ENGINE':'django.db.backends.postgresql',
+       'NAME':'learning26',
+       'USER':'postgres',
+       'PASSWORD':'root',
+       'HOST':'localhost',
+       'PORT':'5432',
+    }
+
+
+ python [djang0] + [postgresql]
+
+ ** vevn enable
+ pip install psycopg2-binary
+
+
+
+settings.py -->	
+
+ default': {
+       'ENGINE':'django.db.backends.postgresql',
+       'NAME':'learning26',
+       'USER':'postgres',
+       'PASSWORD':'root',
+       'HOST':'localhost',
+       'PORT':'5432',
+    }
+
+
+ migration...
+
+ python manage.py migrate
+
+ how to create superuser:
+
+ *(venv) D:\projects\2026-internship-django\learning26>
+ 
+ python manage.py createsuperuser
