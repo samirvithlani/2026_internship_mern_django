@@ -17,6 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from . import views
+from django.urls import include
 #from views import test
 
 #localhost:8000/test/
@@ -29,5 +30,11 @@ urlpatterns = [
     path("",views.home),
     #http://127.0.0.1/:8000/recap
     path("recap/",views.reacp),
-    path("recipe/",views.recipe)
+    path("recipe/",views.recipe),
+
+    #app level url config
+    path("student/",include("student.urls")),
+    path("student2/",include("student2.urls"))
+    
+
 ]

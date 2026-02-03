@@ -102,3 +102,33 @@ settings.py -->
  *(venv) D:\projects\2026-internship-django\learning26>
  
  python manage.py createsuperuser
+
+
+ django app bases arch
+
+ 03-02-2026
+-------------------
+ location: till learning26
+
+ django-admin startapp student
+
+ __init__.py : package , constructor
+ admin.py     : admin portal registration....
+ apps.py      : app level settings
+ models.py    : database table creation
+ tests.py     : testing
+ views.py     : business logic
+
+
+ after create a[pp --> first create urls.py
+ student -->views.py --> function --> url --> student -- urls.py
+ include studet.urls ---> project level urls.py
+
+
+
+
+
+
+ weekly agenda:
+ ORM start: db table creating using django models
+ custome table create data store...

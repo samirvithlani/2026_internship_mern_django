@@ -15,3 +15,7 @@ if < 5  message
 ---------------------------
 own:
 
+
+task:
+student app --> 3 function : student releted data dsipaly...
+
