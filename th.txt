@@ -129,6 +129,35 @@ settings.py -->
 
 
 
- weekly agenda:
+weekly agenda:
  ORM start: db table creating using django models
  custome table create data store...
+
+
+ 04-02-2026
+-------------------
+Django ORM:
+object relational mapping..
+
+
+settings.py  --> installed app
+models class -> changes db apply
+python manage.py makemigrations
+python manage.py migrate
+
+
+
+models.py --> class
+app --> settings.py --> installed app --> app name --> student
+Student --> 3 fileds tables...   make,,migrate
+1 filed add --> null true -> make ,migrate
+
+product class --> make --> migrate
+   -->2 filed --> make --> migrate
+
+   
+admin.py
+--> import .models
+--> admin.site.register(Student)
+
+
