@@ -19,3 +19,12 @@ own:
 task:
 student app --> 3 function : student releted data dsipaly...
 
+
+
+create 6 tables:
+1 to 1 relation
+4 tables foreign key
+
+<------------------------------------------------------->
+
+create new app/not project --> name --> test --> models.py --> data dictonry all model design / classs

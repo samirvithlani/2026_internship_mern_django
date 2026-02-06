@@ -160,4 +160,28 @@ admin.py
 --> import .models
 --> admin.site.register(Student)
 
+database:
+
+-->normalization
+-->user  --> order
+
+user --> n --->order
+one to many
+
+user table
+order table -->FK -->userid as fk
+
+
+1 to 1 relational:
+
+user -->1 profile
+
+user table
+profile table -->FK -->userid as fk
+
+
+rnd -->> python manage.py runserver ---> runserver
+
+admin.py --> pur --> as it is
+
 
