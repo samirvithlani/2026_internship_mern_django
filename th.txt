@@ -185,3 +185,39 @@ rnd -->> python manage.py runserver ---> runserver
 admin.py --> pur --> as it is
 
 
+team a    team b
+-5          10
+-5
+
+
+
+product
+id name price stock category color status discount 
+1  iphone 1200 100  mobile black true 10
+
+Product.object.filter(status=true,stock__gt=0,name="iphone").values()
+
+
+
+create new application employee
+ursl.py
+models -->Employee 
+makemigrations
+migrate
+
+admin regiter. 
+admin panel --> 2 3 emplotee add..
+
+views.py --> employeeList
+all -->query-->
+data -->employeeList.html
+-->table format..
+
+views employeeFilter
+
+filter -->
+call --
+
+dont forget call both function in urls.py --> employee
+reminder : include employee in learning26 urls py
+
