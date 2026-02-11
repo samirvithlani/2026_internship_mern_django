@@ -28,3 +28,6 @@ create 6 tables:
 <------------------------------------------------------->
 
 create new app/not project --> name --> test --> models.py --> data dictonry all model design / classs
+
+
+2 model form create
