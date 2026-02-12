@@ -31,3 +31,23 @@ create new app/not project --> name --> test --> models.py --> data dictonry all
 
 
 2 model form create
+
+
+employeelist.html --> asc dsc
+Views.py --> sortemployees(request,id)
+urls.py --> path("sortemployees/<int:id>",views.sortemployees,name="sortemployees")
+
+asc -- url -->
+desc -->   url
+asc -->id -1
+dec -->id -2
+
+sortemployees(request,id)
+id ==1 
+asc query
+id ==2 
+dec query
+
+
+
+
