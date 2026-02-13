@@ -9,6 +9,7 @@ urlpatterns = [
     path('createCourse/',views.createCourse),
     #path('deleteEmployee/',views.deleteEmployee,name="deleteEmployee")
     path("deleteEmployee/<int:id>",views.deleteEmployee,name="deleteEmployee"),
-    path("filterEmployee/",views.filterEmployee,name="filterEmployee")
+    path("filterEmployee/",views.filterEmployee,name="filterEmployee"),
+    path("updateemployee/<int:id>",views.updateEmployee,name="updateEmployee")
     
 ]

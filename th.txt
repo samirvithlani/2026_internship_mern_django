@@ -231,3 +231,7 @@ create file forms.py
 
 model ->EMployee --> forms.py -->EMployeeForm
 views.py -->create function -->GET [html -->blkank form render]-->form submit -->post --> save...
+
+
+
+update --> form -->blank **** -->form filled -->  edit -->submit..

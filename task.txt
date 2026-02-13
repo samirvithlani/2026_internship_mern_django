@@ -49,5 +49,13 @@ id ==2
 dec query
 
 
+task: 
+create application  services
+models.py service
+create using form
+delete 
+update
+list
+
 
 
