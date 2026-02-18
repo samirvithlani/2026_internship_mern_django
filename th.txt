@@ -260,3 +260,15 @@ footer.html -> base.html include
  design : movie ticket
 
 
+pip install django-crispy-forms
+pip install crispy-bootstrap5
+
+service list -> page
+create service --> crispy forms
+seperate fileds
+
+delete service : confirm button 
+are you sure...
+
+-->
+error : red font display: : reseerch..
