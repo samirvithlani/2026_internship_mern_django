@@ -269,6 +269,19 @@ seperate fileds
 
 delete service : confirm button 
 are you sure...
-
 -->
 error : red font display: : reseerch..
+login page:
+signup page:
+
+django-admin startapp core
+
+migrations
+python manage.py makemigrations
+python manage.py migrate
+
+
+from settings.py remove admin in insralled app
+and remove admin url in learning26 urls.py
+
+python manage.py createsuperuser
